@@ -28,3 +28,21 @@ tfoot { font-style : italic; }
 caption { background : transparent; }
 
 
+/* Pagination Script */
+#pagination-wrapper { position: relative; margin: 0; padding: 0; }
+#pagination-wrapper .page-wrapper { position: relative; display: block; margin: 0 0 20px 0; padding: 0; overflow: hidden; }
+#pagination-wrapper .page-wrapper .page { position: relative; float: left; top: 0; left: 0; margin: 0; padding: 0; display: none; }
+#pagination-wrapper .page-wrapper #page-1 { display: block; }
+#pagination-wrapper ul.page-numbers { position: relative; margin: 0; padding: 0; }
+#pagination-wrapper ul.page-numbers li { list-style: none; display: inline-block; border: 1px solid #000; }
+#pagination-wrapper ul.page-numbers li a:link,
+#pagination-wrapper ul.page-numbers li a:active,
+#pagination-wrapper ul.page-numbers li a:visited { display: block; text-align: center; text-decoration: underline; padding: 10px; }
+#pagination-wrapper ul.page-numbers li a:hover,
+#pagination-wrapper ul.page-numbers li a:focus { text-decoration: none; }
+
+#pagination-wrapper ul.page-numbers li.current a:link,
+#pagination-wrapper ul.page-numbers li.current a:active,
+#pagination-wrapper ul.page-numbers li.current a:visited,
+#pagination-wrapper ul.page-numbers li.current a:hover,
+#pagination-wrapper ul.page-numbers li.current a:focus { display: block; text-align: center; text-decoration: none; padding: 10px; color: #fff; background-color: #d0d0d0; }
